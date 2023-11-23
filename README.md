@@ -1,64 +1,17 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p  align="center"><a  href="https://laravel.com"  target="_blank"><img  src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg"  width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Starter Kit Laravel 9.x and Firebase Jwt
 
-## About Laravel
+This repository is a starter for back end using laravel 9.x and Firebase Jwt
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Setup
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<ul  dir="auto">  <li>Clone Project from Github :</li>  </ul>  <div  class="highlight highlight-source-shell notranslate position-relative overflow-auto"  dir="auto"  data-snippet-clipboard-copy-content="https://github.com/fazarrr/starter-laravel-backend.git"><pre>https://github.com/fazarrr/starter-laravel-backend.git</pre></div>  <ul  dir="auto">  <li>Copy file .env.example and rename become .env</li>  <li>If using MySQL uncomment block "DB_CONNECTION=mysql". If using PostgreSQL uncomment block "DB_CONNECTION=pgsql"</li>  <li>Create a database according to your choice (MySQL / PostgreSQL)</li>  <li>In the .env file, search for and fill in "DB_DATABASE" with the name of the database you created, fill in "DB_USERNAME" with the database username and "DB_PASSWORD" with your database password</li>  <li>Replace JWT_SECRET_KEY in the .env file with a random string for the jwt key</li>  </ul>  <ul  dir="auto">  <li>Execute command :</li>  </ul>  <div  class="highlight highlight-source-shell notranslate position-relative overflow-auto"  dir="auto"  data-snippet-clipboard-copy-content="php artisan key:generate"><pre>php artisan key:generate</pre></div>  <ul  dir="auto">  <li>Execute command :</li>  </ul>  <div  class="highlight highlight-source-shell notranslate position-relative overflow-auto"  dir="auto"  data-snippet-clipboard-copy-content="https://github.com/fazarrr/starter-laravel-backend.git"><pre>composer install</pre></div>  <ul  dir="auto">  <li>Execute command :</li>  </ul>  <div  class="highlight highlight-source-shell notranslate position-relative overflow-auto"  dir="auto"  data-snippet-clipboard-copy-content="php artisan migrate"><pre>php artisan migrate</pre></div>  <ul  dir="auto">  <li>Execute command :</li>  </ul>  <div  class="highlight highlight-source-shell notranslate position-relative overflow-auto"  dir="auto"  data-snippet-clipboard-copy-content="php artisan db:seed --class=AdminUserSeeder"><pre>php artisan db:seed --class=AdminUserSeeder</pre></div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p  dir="auto">Email : admin@gmail.com <br> Password : admin</p>
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p  dir="auto">Postmant collection is in storage\app\public\Starter Backend.postman_collection</p>
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p  dir="auto">The MIT license is a free-to-use software license originating from the Massachusetts Institute of Technology (MIT). This license is concise and to the point. This license allows users to do anything with the program code as in the Apache License. This license only requires users to include the author's license and copyright in the redistributed code and there is no prohibition on using the original author's trademark. Apart from that, users also have no right to sue the creator if damage occurs to the software. <a  href="https://opensource.org/licenses/MIT"  rel="nofollow">MIT license</a>.</p>
